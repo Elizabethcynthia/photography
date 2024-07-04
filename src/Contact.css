@@ -1,0 +1,27 @@
+#contact{
+    border-radius: 30px;
+    color: aqua;
+    background-color: black;
+}
+
+#contact h4{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.first-contact{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+
+.contact2{
+    display: flex;
+    gap: 0.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact2 p{
+    color: whitesmoke;
+}

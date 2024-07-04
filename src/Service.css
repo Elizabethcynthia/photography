@@ -1,0 +1,23 @@
+#service{
+    display: flex;
+    margin: 10%;
+    flex-wrap: wrap;
+}
+
+#service h3{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.seer{
+    padding-bottom: 5%;
+}
+
+.port{
+    padding-bottom: 4px;
+}
+
+.img{
+    justify-content: space-between;
+    display: flex;
+}

@@ -1,0 +1,36 @@
+#footer{
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    padding: 150px;
+    margin: 2%;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.icon{ 
+    text-align: center;
+    padding: 25px;
+}
+
+.icon a{
+    display: inline-block;
+    text-align: center;
+    border: 2px solid orangered;
+    border-radius: 50px;
+    color: whitesmoke;
+    font-size: 24px;
+    width: 48px;
+    height: 48px;
+    line-height: 38px;
+    margin: 40px;
+    box-shadow: inset 0 0 10px orangered, 0 0 10px orangered;
+    transition: 0.3s ease;
+}
+
+.icon a:hover{
+    transform: scale(1.2)translateY(-10px);
+    color: aqua;
+    border: 2px solid pink;
+}

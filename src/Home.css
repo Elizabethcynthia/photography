@@ -1,0 +1,11 @@
+.home{
+    display: flex;
+    font-size: 50px;
+    color: aqua;
+    background-image: url(16700.jpg);
+    background-size: contain;
+    font-weight: bolder;
+    padding: 150px;
+    border-radius: 30px;
+    margin: 1%;
+}
