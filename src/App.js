@@ -8,16 +8,26 @@ import Service from "./Service";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+
 function App() {
   return (
     <div className="App">
-       <Navbar/>
-       <Home/>
-       <About/>
-       <Gallery heading={datamain.heading} data={datamain.Data}/>
-       <Service/>
-       <Contact/>
-       <Footer/>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+
+          <Route>
+            <Route path="/" element={<Home/>} />
+            <Route path="about" element={<About/>} />
+            <Route path="gallery" element={<Gallery heading={datamain.heading} data={datamain.Data}/>} />
+            <Route path="service" element={<Service/>} />
+            <Route path="contact" element={<Contact/>} />
+            <Route path="footer" element={<Footer/>} />
+          </Route>
+
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
