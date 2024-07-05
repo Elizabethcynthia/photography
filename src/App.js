@@ -18,7 +18,8 @@ function App() {
         <Routes>
 
           <Route>
-            <Route path="/" element={<Home/>} />
+            <Route index element={<Home/>} />
+            <Route  Navigate to="/" element={<Home />} />
             <Route path="about" element={<About/>} />
             <Route path="gallery" element={<Gallery heading={datamain.heading} data={datamain.Data}/>} />
             <Route path="service" element={<Service/>} />

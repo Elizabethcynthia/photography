@@ -17,10 +17,10 @@ const Footer = () => {
         </div>
         <p>In case of anything else you can link me on various social media</p>
         <div className="icon">
-           <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-           <a href=""><i class="fa-brands fa-facebook"></i></a>
-           <a href=""><i class="fa-brands fa-instagram"></i></a>
-           <a href=""><i class="fa-brands fa-tiktok"></i></a>
+           <a href="/"><i class="fa-brands fa-whatsapp"></i></a>
+           <a href="about"><i class="fa-brands fa-facebook"></i></a>
+           <a href="service"><i class="fa-brands fa-instagram"></i></a>
+           <a href="gallery"><i class="fa-brands fa-tiktok"></i></a>
         </div>
      </div>
     );

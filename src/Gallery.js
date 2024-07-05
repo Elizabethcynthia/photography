@@ -12,7 +12,7 @@ function Gallery({heading,data}){
            datamain.Data.map((result) => {
                return(
                 <>
-                  <img src={result.image}/>
+                  <img src={result.image} alt="" />
                   <p>{result.desc}</p>
                 </>
                )

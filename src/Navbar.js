@@ -1,12 +1,12 @@
 import React from "react";
 import './Navbar.css';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () =>{
  return (
     <nav className="navbar">
        <div className="navbar-logo">
-         <a href="/">PHOTOGRAPHY <span>WEBSITE</span></a>
+         <h2>PHOTOGRAPHY <span>WEBSITE</span></h2>
        </div>
        <ul className="navbar-links">
           <li><Link to="/">Home</Link></li>
@@ -16,7 +16,6 @@ const Navbar = () =>{
           <li><Link to="contact">Contact</Link></li>
           <li><Link to="footer">Footer</Link></li>
        </ul>
-       <Outlet/>
     </nav>
  )
 }
